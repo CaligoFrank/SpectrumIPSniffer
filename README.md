@@ -23,9 +23,9 @@ pip install -r requirements.txt
 ## Installation
 
 ### Clone the repository:
-   ```bash
+   
    git clone https://github.com/your-username/network-device-scanner.git 
-   ```
+
 ### Navigate to the project directory:
     ```bash
     cd C://IpSniffer
