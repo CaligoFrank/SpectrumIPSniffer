@@ -18,26 +18,31 @@ To install the required Python libraries, use:
 ```bash
 pip install -r requirements.txt
 
+# Network Device Scanner
 
+## Installation
 
-Installation
 Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/network-device-scanner.git
+   ```bash
+   git clone https://github.com/your-username/network-device-scanner.git 
+   ```
 Navigate to the project directory:
+
 bash
 Copy code
 cd network-device-scanner
 Install dependencies:
+
 bash
 Copy code
 pip install -r requirements.txt
 Verify nmap installation: Make sure nmap is correctly installed on your system by running:
+
 bash
 Copy code
 nmap --version
 If nmap is not found, please install it from the official website.
+
 Usage
 Run the application:
 bash
@@ -63,3 +68,14 @@ This project is licensed under the MIT License. See LICENSE for details.
 Acknowledgments
 nmap for network scanning capabilities.
 customtkinter for the GUI library that enables a customizable dark theme.
+yaml
+Copy code
+
+---
+
+To use this, save it as `README.md` in your project directory. It will automatically be formatted and displayed as a README file on platforms like GitHub.
+
+
+
+
+
