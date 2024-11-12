@@ -23,47 +23,47 @@ pip install -r requirements.txt
 ## Installation
 
 ### Clone the repository:
-   
-   git clone https://github.com/your-username/network-device-scanner.git 
-
+```bash
+git clone https://github.com/your-username/network-device-scanner.git 
+```
 ### Navigate to the project directory:
-    ```bash
-    cd C://IpSniffer
-    ```
+```bash
+cd C://IpSniffer
+```
 ### Install Dependencies:
-    ```bash
+```bash
     pip install -r requirements.txt
-    ```
+```
 ### Verify nmap installation:
 #### Make sure nmap is correctly installed on your system by running:
-    ```bash
+```bash
     nmap --version
-    ```
+```
 #### if nmap is not found, please install it from the official website.
 
 # Usage
 
 ## Run the Application using Python:
-    ```bash
+```bash
     python IpSniffer.py
-    ```
+```
 ## OR Run using the .exe file
-    ```bash
+```bash
     D:\SpectrumIPSniffer\dist\IpSniffer.exe
-    ```
+```
 
 ### In the GUI click "Scan Network" to begin scanning the local network, Detected devices will appear in a list with details such as IP, MAC address, device type, hostname, and vendor.
 ### Double-click on a device entry to view details or add/edit notes.
 
 # Project Structure
 
-    ```bash
-        network-device-scanner/
-        ├── IpSniffer.py           # Main application file
-        ├── requirements.txt       # List of dependencies
-        ├── device_notes.json      # JSON file for storing device notes
-        └── README.md              # Project documentation
-    ```
+```bash
+network-device-scanner/
+├── IpSniffer.py           # Main application file
+├── requirements.txt       # List of dependencies
+├── device_notes.json      # JSON file for storing device notes
+└── README.md              # Project documentation
+```
 
 # Troubleshooting
 - if you recieve an error regarding missing Tcl or Tk Libraries, verify that Tcl/Tk libraries are correctly installed. You may need to reinstall Python and ensure Tcl/Tk is included.
