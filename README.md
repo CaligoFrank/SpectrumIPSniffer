@@ -17,65 +17,60 @@ The **Network Device Scanner** is a Python application that provides a GUI for s
 To install the required Python libraries, use:
 ```bash
 pip install -r requirements.txt
+```
 
-# Network Device Scanner
 
 ## Installation
 
-Clone the repository:
+### Clone the repository:
    ```bash
    git clone https://github.com/your-username/network-device-scanner.git 
    ```
-Navigate to the project directory:
+### Navigate to the project directory:
+    ```bash
+    cd C://IpSniffer
+    ```
+### Install Dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+### Verify nmap installation:
+#### Make sure nmap is correctly installed on your system by running:
+    ```bash
+    nmap --version
+    ```
+#### if nmap is not found, please install it from the official website.
 
-bash
-Copy code
-cd network-device-scanner
-Install dependencies:
+# Usage
 
-bash
-Copy code
-pip install -r requirements.txt
-Verify nmap installation: Make sure nmap is correctly installed on your system by running:
+## Run the Application using Python:
+    ```bash
+    python IpSniffer.py
+    ```
+## OR Run using the .exe file
+    ```bash
+    D:\SpectrumIPSniffer\dist\IpSniffer.exe
+    ```
 
-bash
-Copy code
-nmap --version
-If nmap is not found, please install it from the official website.
+### In the GUI click "Scan Network" to begin scanning the local network, Detected devices will appear in a list with details such as IP, MAC address, device type, hostname, and vendor.
+### Double-click on a device entry to view details or add/edit notes.
 
-Usage
-Run the application:
-bash
-Copy code
-python IpSniffer.py
-In the GUI, click "Scan Network" to begin scanning the local network.
-Detected devices will appear in a list with details such as IP, MAC address, device type, hostname, and vendor.
-Double-click on a device entry to view details or add/edit notes.
-Project Structure
-plaintext
-Copy code
-network-device-scanner/
-├── IpSniffer.py           # Main application file
-├── requirements.txt       # List of dependencies
-├── device_notes.json      # JSON file for storing device notes
-└── README.md              # Project documentation
-Troubleshooting
-If you receive an error regarding missing tcl or tk libraries, verify that Tcl/Tk libraries are correctly installed. You may need to reinstall Python and ensure Tcl/Tk is included.
-Ensure nmap is accessible in your system’s PATH.
-License
-This project is licensed under the MIT License. See LICENSE for details.
+# Project Structure
 
-Acknowledgments
-nmap for network scanning capabilities.
-customtkinter for the GUI library that enables a customizable dark theme.
-yaml
-Copy code
+    ```bash
+        network-device-scanner/
+        ├── IpSniffer.py           # Main application file
+        ├── requirements.txt       # List of dependencies
+        ├── device_notes.json      # JSON file for storing device notes
+        └── README.md              # Project documentation
+    ```
 
----
+# Troubleshooting
+- if you recieve an error regarding missing Tcl or Tk Libraries, verify that Tcl/Tk libraries are correctly installed. You may need to reinstall Python and ensure Tcl/Tk is included.
+- Ensure nmape is accessible in your systems PATH.
 
-To use this, save it as `README.md` in your project directory. It will automatically be formatted and displayed as a README file on platforms like GitHub.
-
-
-
+# Acknowledgments
+- namp for network scanning capabilities.
+- customtkinter for the GUI library that enables a customizable dark theme.
 
 
